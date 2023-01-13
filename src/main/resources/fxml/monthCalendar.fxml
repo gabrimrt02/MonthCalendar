@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root fx:id="view" hgap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="GridPane" vgap="5.0"
+  xmlns:fx="http://javafx.com/fxml/1"
+  xmlns="http://javafx.com/javafx/17">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+  <children>
+    <Label fx:id="monthNameLabel" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="MONTH_NAME" GridPane.columnSpan="7" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="L" GridPane.rowIndex="1" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="M" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="X" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="J" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="V" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+    <Label alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="D" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+    <Label fx:id="dayCellLabel01" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel02" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel03" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel04" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel05" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel06" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel07" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+    <Label fx:id="dayCellLabel08" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel09" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel10" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel11" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel12" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel13" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel14" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+    <Label fx:id="dayCellLabel15" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel16" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel17" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel18" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel19" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel20" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel21" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+    <Label fx:id="dayCellLabel22" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel23" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="0.0" prefWidth="82.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel24" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel25" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel26" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel27" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel28" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+    <Label fx:id="dayCellLabel29" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel30" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel31" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel32" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel33" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel34" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel35" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+    <Label fx:id="dayCellLabel36" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.rowIndex="7" />
+    <Label fx:id="dayCellLabel37" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Label fx:id="dayCellLabel38" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+    <Label fx:id="dayCellLabel39" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+    <Label fx:id="dayCellLabel40" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+    <Label fx:id="dayCellLabel41" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+    <Label fx:id="dayCellLabel42" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+  </children>
+  <padding>
+    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+  </padding>
+
+  <fx:define>
+    <java.util.ArrayList fx:id="daysLabelList">
+      <fx:reference source="dayCellLabel01" />
+      <fx:reference source="dayCellLabel02" />
+      <fx:reference source="dayCellLabel03" />
+      <fx:reference source="dayCellLabel04" />
+      <fx:reference source="dayCellLabel05" />
+      <fx:reference source="dayCellLabel06" />
+      <fx:reference source="dayCellLabel07" />
+      <fx:reference source="dayCellLabel08" />
+      <fx:reference source="dayCellLabel09" />
+      <fx:reference source="dayCellLabel10" />
+      <fx:reference source="dayCellLabel11" />
+      <fx:reference source="dayCellLabel12" />
+      <fx:reference source="dayCellLabel13" />
+      <fx:reference source="dayCellLabel14" />
+      <fx:reference source="dayCellLabel15" />
+      <fx:reference source="dayCellLabel16" />
+      <fx:reference source="dayCellLabel17" />
+      <fx:reference source="dayCellLabel18" />
+      <fx:reference source="dayCellLabel19" />
+      <fx:reference source="dayCellLabel20" />
+      <fx:reference source="dayCellLabel21" />
+      <fx:reference source="dayCellLabel22" />
+      <fx:reference source="dayCellLabel23" />
+      <fx:reference source="dayCellLabel23" />
+      <fx:reference source="dayCellLabel24" />
+      <fx:reference source="dayCellLabel25" />
+      <fx:reference source="dayCellLabel26" />
+      <fx:reference source="dayCellLabel27" />
+      <fx:reference source="dayCellLabel28" />
+      <fx:reference source="dayCellLabel29" />
+      <fx:reference source="dayCellLabel30" />
+      <fx:reference source="dayCellLabel31" />
+      <fx:reference source="dayCellLabel32" />
+      <fx:reference source="dayCellLabel33" />
+      <fx:reference source="dayCellLabel34" />
+      <fx:reference source="dayCellLabel35" />
+      <fx:reference source="dayCellLabel36" />
+      <fx:reference source="dayCellLabel37" />
+      <fx:reference source="dayCellLabel38" />
+      <fx:reference source="dayCellLabel39" />
+      <fx:reference source="dayCellLabel40" />
+      <fx:reference source="dayCellLabel41" />
+      <fx:reference source="dayCellLabel42" />
+    </java.util.ArrayList>
+  </fx:define>
+</fx:root>
